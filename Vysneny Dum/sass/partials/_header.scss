@@ -1,0 +1,50 @@
+header {
+	padding-top: 20px;
+	width: 100%;
+	height: 500px;
+	position: absolute;
+	z-index: 1;
+	 h1{
+	 	font-family: "Encode Sans Semi Expanded", sans-serif;
+		color: white;
+			
+	}
+	h4{
+		color: white;
+		text-align: center;
+		width: 100%;
+	}
+}
+.title{
+	width: 500px;
+	height: 200px;
+	margin: 120px 0 0 300px;
+			.left{
+			 float: left;
+			}
+			.right{
+			 float: right;
+			}
+}
+.subtitle{
+	padding-left: 100px;
+	margin: auto;
+}
+
+.slider {
+	height: 500px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	background-color: $greygreen;
+	.background{
+		background-color: $black;
+		max-width: 100vw;
+		max-height: 500px;
+		text-align: center;
+			img{
+				opacity: 0.7;
+				max-height: 500px;
+			}
+	}
+}

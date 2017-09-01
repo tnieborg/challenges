@@ -1,0 +1,20 @@
+.container {
+  width: 100%;
+  height: auto;
+}
+main{
+	padding: 20px;
+	width: 90%;
+	height: auto;
+	margin: auto;
+	.intro{
+		height: auto;
+		width: 50%;
+		float: left;
+	}
+	.info{
+		width: 50%;
+		height: auto;
+		float: left;
+	}
+}

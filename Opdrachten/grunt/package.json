@@ -1,0 +1,20 @@
+{
+  "name": "grunt",
+  "version": "1.0.0",
+  "description": "This is my first grunt",
+  "main": "Gruntfile.js",
+  "dependencies": {
+    "grunt": "^1.0.1"
+  },
+  "devDependencies": {
+    "grunt-contrib-cssmin": "^2.2.1",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "^3.0.1",
+    "grunt-contrib-watch": "^1.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tnieborg",
+  "license": "ISC"
+}

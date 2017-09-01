@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#img{
+	width: 1000px;
+	height: 600px;
+	margin: auto;
+	display: flex;
+}
+.img{
+	margin: auto;
+	text-align: center;
+}
+p{
+}
+.arrow{
+	display: flex;
+	cursor: pointer;
+	justify-content: space-between;
+}
+.arrowr:hover, .arrowl:hover{
+	-webkit-animation: fade 1s forwards;
+	animation: fade 1s forwards;
+}
+.fadin {
+	-webkit-animation-name: fadin;
+	-webkit-animation-duration: 1.5s;
+	animation-name: fadin;
+	animation-duration: 1.5s;
+}
+
+.arrowl{	
+	font-size: 40px;
+}
+.arrowr{
+	font-size: 40px;
+}
+@-webkit-keyframes fadin {
+	from {opacity: .4} 
+	to {opacity: 1}
+}
+
+@keyframes fadin {
+	from {opacity: .4} 
+	to {opacity: 1}
+}
+@-webkit-keyframes fade{
+	from{color: #000;}
+	to{color: #d3d3d3;}
+}
+@keyframes fade{
+	from{color: #000;}
+	to{color: #d3d3d3;}
+}
+</style>
+</head>
+<body>
+	<main>
+	<div id="img">
+	
+	
+	</div>
+	<div class="arrow">
+	<div class="arrowl" onclick="nextSlide(-1)">&#9668;</div>
+	<div class="arrowr" onclick="nextSlide(1)">&#9658;</div>
+	</div>
+	</main>
+	<script type="text/javascript" src="slideshow.js"></script>
+</body>
+</html>

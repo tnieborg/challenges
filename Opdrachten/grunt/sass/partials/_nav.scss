@@ -1,0 +1,20 @@
+.nav {
+  background-color: $lightgrey;
+  height: 50px;
+  text-align: center;
+  ul {
+  	margin: 0 0 0 0;
+  	padding: 0 0 0 0;
+    list-style: none;
+    li {
+        display: inline-block;
+        margin: auto;
+        padding: 10px 20px 10px 20px;
+      a {
+      	text-decoration: none;        
+        color: $black;
+
+      }
+    }
+  }
+}

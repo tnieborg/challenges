@@ -1,0 +1,147 @@
+body, html {
+ 	height: 100%;
+	min-width: 330px;
+ 	margin: 0px;
+ 	font: 400 15px/1.8 "Lato", sans-serif;
+ 	color: #777;
+}
+
+.nav{
+	position: fixed;
+	background-color: black;
+	color: white;
+	width: 50px;
+	height: 100%;
+	z-index: 10000;
+	font-size: 50px;
+}
+.nav a{
+	text-decoration: none;
+	color: white;
+	cursor: pointer;
+}
+.nav a:hover{
+	text-decoration: none;
+	color: white;
+	cursor: pointer;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    /*float: right;*/
+	/*height: 80px;*/
+}
+
+li a {
+	-webkit-transition: background-color 1s; /* For Safari 3.1 to 6.0 */
+    transition: background-color 1s;
+    display: block;
+    color: white;
+    text-align: center;
+    /*padding: 16px;*/
+    text-decoration: none;
+    line-height: 70%;
+}
+
+li a:hover:not(.active) {
+    background-color: rgba(125,125,125,1.00);
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+p a {
+	text-decoration: none;
+	color:white;
+}
+h1{
+	line-height: 100%;
+}
+p{
+	padding-right: 25%;
+}
+.body{
+	padding-left: 150px;
+}
+.all{
+	position: static;
+	width: 1050px;
+	height: 800px;
+	
+}
+.main{
+	float: left;
+	width: 550px;
+}
+.left{
+	padding-top: 200px;
+	float: left;
+	width: 500px;
+	text-align: center;
+}
+.leftin{
+	background-color: black;
+	color: black;
+	margin: auto;
+	width: 200px;
+}
+.gallery{
+	font-size: 20px;
+	width: 100%;
+	margin: auto;
+	text-align: center;
+}
+.photo1{
+	width: 1100px;
+	height: 500px;
+	background-color: #D3D3D3;
+}
+.photo2{
+	position: static;
+	margin: 20px 20px 0px;
+	float: left;
+	width: 240px;
+	height: 150px;	
+	background-color: #D3D3D3;
+}
+.gallery2{
+	font-size: 20px;
+	width: 100%;
+	margin: auto;
+	text-align: center;
+}
+.photo3{
+	margin: 10px 150px 0px 150px;
+	position: static;
+	width: 800px;
+	height: 50px;
+	background-color: #D3D3D3;
+}
+.photo4{
+	margin: 20px 150px 20px 150px;
+	position: static;
+	width: 800px;
+	height: 150px;
+	background-color: #D3D3D3;
+}
+.button{
+	margin: 0px 250px 50px 0px;
+	float: right;
+	width: 150px;
+	height: 50px;
+	background-color: #333;
+	border: 0px solid;
+}
+.footer{
+	width: 1000px;
+	height: 50px;
+	margin: 100px 200px 0px 200px;
+	background-color: #333;
+}

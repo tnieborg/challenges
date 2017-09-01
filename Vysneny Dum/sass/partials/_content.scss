@@ -1,0 +1,33 @@
+main{
+	overflow: auto;
+	color: $white;
+	margin-top: 20px;
+}
+.info{
+
+		padding-right: 5%;
+	p{
+		text-align: justify;
+		text-justify: newspaper;
+	}
+	a{
+		text-align: center;
+		text-decoration: none;
+		display: block;
+		width: 160px;
+		height: 30px;
+		color: $white;
+		background-color: $stonered;
+		&:hover{
+			background-color: $darkstonered;
+		}
+	}
+}
+.intro{
+
+		padding: 0 5% 0 5%;
+	p{
+		text-align: justify;
+		text-justify: newspaper;
+	}
+}

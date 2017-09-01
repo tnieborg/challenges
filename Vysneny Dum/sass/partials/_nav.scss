@@ -1,0 +1,24 @@
+.nav {
+        padding-left: 15px;
+        background-color: $stonered;
+        width: 500px;
+        height: 45px;
+  ul {
+    list-style: none;
+    li {
+        display: inline-block;
+      a {
+        display: table-cell;
+        vertical-align: middle;
+        padding: 4px;
+        font-size: 25px;
+        color: white;
+        font-style: bold;
+      	text-decoration: none;
+        &:hover{
+          background-color: $darkstonered;
+        }
+      }
+    }
+  }
+}
